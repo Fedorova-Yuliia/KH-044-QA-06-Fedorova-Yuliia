@@ -20,7 +20,7 @@ public class HT4 {
                 System.out.println("Maximum length?");
                 int max = scanner.nextInt();
                 for (int i = 0; i < b.length; i++) {
-                    if(max == b[i].length()) {
+                    if(max >= b[i].length()) {
                         System.out.println(b[i]);
                     }
                 }
